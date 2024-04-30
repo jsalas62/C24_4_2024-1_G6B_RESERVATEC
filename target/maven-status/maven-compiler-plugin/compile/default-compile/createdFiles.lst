@@ -1,0 +1,10 @@
+com\ejemplo\demooauth\controller\UserController.class
+com\ejemplo\demooauth\config\SecurityConfig.class
+com\ejemplo\demooauth\model\Estado.class
+com\ejemplo\demooauth\model\Rol.class
+com\ejemplo\demooauth\DemoOauthApplication.class
+com\ejemplo\demooauth\controller\HomeController.class
+com\ejemplo\demooauth\model\Carrera.class
+com\ejemplo\demooauth\model\Usuario.class
+com\ejemplo\demooauth\repository\UserRepository.class
+com\ejemplo\demooauth\service\UserService.class
