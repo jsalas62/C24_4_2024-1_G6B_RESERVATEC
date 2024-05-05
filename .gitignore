@@ -1,8 +1,10 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Excluir todos los archivos properties y yml de los directorios de recursos
+**/src/main/resources/**/*.properties
+**/src/main/resources/**/*.yml
+
+# Excluir archivos properties y yml específicos si es necesario
+# /src/main/resources/application.properties
+# /src/main/resources/application.yml
 
 ### STS ###
 .apt_generated
@@ -31,3 +33,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Otros directorios y archivos a ignorar ###
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
